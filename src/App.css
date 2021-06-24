@@ -32,6 +32,10 @@
   margin-right: 4px;
 }
 
+.topbar button+button {
+  margin-left: 18px;
+}
+
 .left {
   flex: 1;
   margin-right: 32px;
@@ -118,3 +122,14 @@
 .text-input {
   height: 28px;
 }
+
+.modal-operations {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0 0 0;
+}
+
+.modal-operations button+button {
+  margin-left: 18px;
+}
+

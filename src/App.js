@@ -5,6 +5,8 @@ import TopBar from './components/TopBar'
 import { Editor, Frame, Element } from "@craftjs/core"
 import Text from './components/Text'
 import Container from './components/Container'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
@@ -27,6 +29,17 @@ function App() {
           </div>
         </div>
       </Editor>
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }
